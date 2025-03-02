@@ -26,7 +26,6 @@ public class SmartThermostat extends SmartDevice implements RemoteControllable {
 
     private void onOff() {
         ukljuceno = !ukljuceno;
-        String output = (ukljuceno) ? " uključen." : " isključen.";
     }
 
     private void postaviTemperaturu(int temperatura) {
